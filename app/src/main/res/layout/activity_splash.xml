@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Splash"
+    android:orientation="vertical"
+    android:background="#FFEB3B">
+
+
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/logoappchat"/>
+
+    <TextView
+        android:layout_marginBottom="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ChatApp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_marginBottom="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nguyễn Văn Chính"
+        android:textColor="@color/teal_200"
+        android:textSize="12sp"/>
+
+</RelativeLayout>
